@@ -1,28 +1,30 @@
 import React, { Component } from 'react'
 import './App.css';
 
+//Imported Components
+import Weather from './components/Weather';
+import News from './components/News';
+import Iteniary from './components/Iteniary';
 
 
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-    
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <h1> Greetings, User</h1>
+      <Weather/>
+      <section>
+          <div>
+            <h3>Latest Headlines</h3>
+          <News/>
+          </div>
+          <div>
+            <h3> Today's Agenda</h3>
+          <Iteniary/>
+          </div>
+      </section>
+    </main>
   );
 }
 
