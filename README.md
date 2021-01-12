@@ -1,51 +1,54 @@
 
-### Project Name/Intro
+## React-Based Personal Dashboard
 
-- Describe very briefly but clearly what the project does.
-- State if it is out-of-the-box user-friendly, so it’s clear to the user.
-- List its most useful/innovative/noteworthy features.
-- State its goals/what problem(s) it solves.
-- Note and briefly describe any key concepts (technical, philosophical, or both) important to the user’s understanding.
-- Link to any supplementary blog posts or project main pages.
-- Note its development status.
-- Include badges.
-- If possible, include screenshots and demo videos.
+### Screenshots/Videos
+
+
+### Brief 
+A personal dashboard  built using React. It is uses Enlight's build a personal dashboard as a base but built on it by adding other features.
+These features include but are not limited to geolocation, geocoding, styling using Semantic UI etc. 
+
+### Live Version Location
+- link 
+
+### Learning Goals
+- [ ] Refresh knowledge on React, components, and work with hooks.
+- [ ] Build a basic CRUD web app using React
+- [ ] Use Semantic UI to style app
+- [ ] Create cards that flips when selected showing more information. 
+- [ ] Make it mobile responsive. 
+- [ ] Create a blog post about building it.
+- [ ] Integrate  unit testing.
 
 ### Core Technical Concepts/Inspiration
-
 - Why does it exist?
 - Frame your project for the potential user. 
 - Compare/contrast your project with other, similar projects so the user knows how it is different from those projects.
 - Highlight the technical concepts that your project demonstrates or supports. Keep it very brief.
 - Keep it useful.
 
+### User Stories
+- [ ] Users should be able to ........ 
+
 ### Getting Started/Requirements/Prerequisites/Dependencies
 Include any essential instructions for:
 - Getting it
 - Installing It
-- Configuring It
 - Running it
 
 ### More Specific Topics (+ sample sub-categories)
 - Versioning: Services, APIs, Systems
 - Common Error Messages/related details
 - Tests
-- Is it a Swift project? Please take a look at Mattt Thompson & Nate Cook's [Swift documentation](http://nshipster.com/swift-documentation/) guide
 
 ### Contributing
 - Contributor Guidelines
-- Code Style/Requirements
-- Format for commit messages
-- Thank you (name contributors)
 
-### TODO
-- Next steps
-- Features planned
+### Next steps
 - Known bugs (shortlist)
 
 ### Contact
 - Email address
-- Google Group/mailing list (if applicable)
-- IRC or Slack (if applicable)
+- Twitter
 
 ### License
