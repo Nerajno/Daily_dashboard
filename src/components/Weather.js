@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 let apiUrl = "https://api.openweathermap.org/data/2.5/weather";
-let apiKey = "0e9298136c7c17273ccec159a274dc0f";
+let apiKey = process.env.REACT_APP_WEATHER_API_KEY;
 let city = "Atlanta, USA";
 
 function Weather() {
@@ -14,7 +14,7 @@ function Weather() {
 
 
     return (
-        <h2>The current weather is {weather && weather.main.temp} in  {city}.</h2>
+        <h2>The current weather is {weather}  in  {city}.</h2>
     );
 }
 
