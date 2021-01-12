@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 // News Api stuff
 let apiUrl = "https://api.nytimes.com/svc/topstories/v2";
-let apiKey = "XlrMJpLIU8lWnZ5SeyhSxmncrA4RPB6S";
+let apiKey = process.env.REACT_APP_NEWS_API_KEY;
 let type = "world.json";
 
 function News() {
