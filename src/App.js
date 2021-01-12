@@ -1,5 +1,7 @@
 import React from 'react'
 import './App.css';
+import { Button } from '@material-ui/core';
+
 
 //Imported Components
 import Weather from './components/Weather';
@@ -13,6 +15,7 @@ function App() {
   return (
     <main>
       <h1> Greetings, User</h1>
+      <Button> Test</Button>
       <Weather/>
       <section>
           <div>
