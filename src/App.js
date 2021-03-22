@@ -7,6 +7,7 @@ import { Button } from '@material-ui/core';
 import Weather from './components/Weather';
 import News from './components/News';
 import Iteniary from './components/Iteniary';
+import Header from './components/Header';
 
 
 
@@ -14,7 +15,7 @@ import Iteniary from './components/Iteniary';
 function App() {
   return (
     <main>
-      <h1> Greetings, User</h1>
+      < Header/>
       <Button> Test</Button>
       <Weather/>
       <section>

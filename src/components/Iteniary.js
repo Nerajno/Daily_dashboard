@@ -38,7 +38,7 @@ function Iteniary() {
     }
 
     return (
-        <div>
+        <div className="iteniaryContainer">
             <input
                 className ="todo-input"
                 value={currentTodo}

@@ -1,5 +1,5 @@
 
-## React-Based Personal Dashboard
+## Brada ~ A React-Based Personal Dashboard
 
 ### Screenshots/Videos
 

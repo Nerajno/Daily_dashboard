@@ -15,7 +15,10 @@ function Weather() {
 
 
     return (
-        <h2>The current weather is {weather && weather.main.temp}  in  {city}.</h2>
+        <div>
+            <h2>The current weather is {weather && weather.main.temp}  in  {city}.</h2>
+        </div>
+        
     );
 }
 
