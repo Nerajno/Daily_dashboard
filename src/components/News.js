@@ -15,7 +15,7 @@ function News() {
     }, []);
 
     return  (
-       news && news.results.splice(0,5).map((article, index) => {
+       news && news.results.splice(0,6).map((article, index) => {
            return ( 
                <article key={article.url}>
                    <img alt ={index} height="100px" src={article.multimedia[0].url} />

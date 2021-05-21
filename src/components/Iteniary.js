@@ -5,14 +5,17 @@ function Iteniary() {
     const [todos, setTodos] = useState([
         {
             todo: "bake a pudding",
-            isCompleted: false
+            isCompleted: false,
+            key: 1
         },
         {
             todo: "write an article on 2020",
-            isCompleted: false
+            isCompleted: false,
+            key: 2
         },{
             todo: "go for a tow mile walk",
-            isCompleted: true
+            isCompleted: true,
+            key: 3
         }
     ]);
 

@@ -15,7 +15,7 @@ import Header from './components/Header';
 function App() {
   return (
     <main>
-      < Header/>
+      <Header/>
       <Button> Test</Button>
       <Weather/>
       <section>

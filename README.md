@@ -13,13 +13,12 @@ These features include but are not limited to geolocation, geocoding, styling us
 
 ### Learning Goals
 - [ ] Refresh knowledge on React, components, and work with hooks.
-- [ ] Build a basic CRUD web app using React
+- [x] Build a basic CRUD web app using React
 - [ ] Use material UI to style components.
 - [ ] Create cards that flips when selected showing more information. 
 - [ ] Make it mobile responsive. 
 - [ ] Create a blog post about building it.
 - [ ] Integrate  unit testing.
-- [ ] Integrate the ability to 
 
 ### Core Technical Concepts/Inspiration
 - Why does it exist?
