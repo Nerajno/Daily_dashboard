@@ -13,6 +13,7 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "readme-md-generator": "^1.0.0",
+    "tailwindcss": "^2.1.4",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
